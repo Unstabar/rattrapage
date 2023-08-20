@@ -359,8 +359,7 @@ footer a:hover {
 
 @media (max-width: 768px) {
 
-    .menu ul,
-    .auth-buttons {
+    .menu ul {
         display: none;
         position: absolute;
         top: 60px;
