@@ -19,9 +19,9 @@
                     <input type="checkbox" id="menu-toggle" class="menu-toggle">
                     <label for="menu-toggle" class="mobile-menu-button">Menu</label>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <a href="#" class="menu-item">Features</a>
+                        <a href="#" class="menu-item">Pricing</a>
+                        <a href="#" class="menu-item">Resources</a>
                     </ul>
                 </nav>
             </div>
@@ -54,7 +54,7 @@
             <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
         </div>
         <div class="stat-boxes">
-            <div class="stat">
+            <div class="stat" id="brand-recognition">
                 <picture><img class="stat-img" src="images/brand.svg" alt="brand"></picture>
                 <h3>Brand Recognition</h3>
                 <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help
@@ -62,7 +62,7 @@
                     confidence in your content.</p>
             </div>
 
-            <div class="stat">
+            <div class="stat" id="detailed-records">
                 <picture><img class="stat-img" src="images/records.svg" alt="records"></picture>
                 <h3>Detailed Records</h3>
                 <p>Gain insights on who is clicking your links. Knowing when and where people engage with your content
@@ -70,7 +70,7 @@
                     inform better decisions.</p>
             </div>
 
-            <div class="stat">
+            <div class="stat" id="customizable-links">
                 <picture>
                     <img class="stat-img" src="images/custom.svg" alt="custom">
                 </picture>
@@ -118,11 +118,19 @@
                 </ul>
             </div>
             <div class="socials">
-                <img src="images/group-19.svg" alt="">
+                <ul class="social-icons">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-pinterest"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+
+                </ul>
             </div>
         </div>
 
     </footer>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
